@@ -19,4 +19,15 @@
     4、vscode中的插件
       EditorConfig for VS Code
 ### .gitattributes是干嘛的
-
+    学习链接:https://blog.csdn.net/taiyangdao/article/details/78484623
+    https://zhuanlan.zhihu.com/p/108266134
+    概要：
+      1、gitattributes文件以行为单位设置一个路径下所有文件的属性
+      2、一个属性可能有4种状态
+        设置text
+        不设置 -text
+        设置值 text=string
+        未声明，通常不出现该属性即可，若需要覆盖其他文件也可以写成!text
+      3、一个git库可以有多个gitattributes文件
+      4、所有git库可以设置统一的gitattributes文件
+      5、可定义的相关属性
